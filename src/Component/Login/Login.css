@@ -1,0 +1,121 @@
+.loginHeader {
+    height: 60px;
+    background-color: #015498;
+    padding: 0 40px;
+}
+
+.loginHeader img{
+    height: 40px;
+    margin-top: 10px;
+}
+
+.loginBody {
+    height: calc(100% - 121px);
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.loginBody .loginBodyLeft {
+    padding: 60px 100px 0 0;
+    height: 605px;
+    width: 390px;
+    float: right;
+}
+
+.loginBody .loginBodyLeft .loginBoxTitle {
+    font-size: 28px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 50px;
+    color: #000;
+}
+
+.loginBody .loginBodyLeft .loginBoxInput input{
+    font-size: 14px;
+    line-height: 28px;
+    float: right;
+    padding: 7px 10px;
+    border: 1px solid #ddd;
+    color: #333;
+    vertical-align: middle;
+    width: 290px;
+    margin-bottom: 15px;
+}
+
+.loginBody .loginBodyLeft .loginBoxTips {
+    font-size: 14px;
+    line-height: 28px;
+    float: right;
+    color: red;
+    padding-bottom: 15px;
+}
+
+.loginBody .loginBodyLeft .loginBoxButton {
+    background-color: #00a4ff;
+    height: 45px;
+    float: right;
+    padding: 0 20px;
+    color: #fff;
+    line-height: 45px;
+    font-size: 16px;
+    text-align: center;
+    width: 290px;
+    cursor: pointer;
+}
+
+.loginBody .loginBodyLeft .loginBoxButton:hover {
+    background-color: #0092ee;
+}
+
+.loginBody .loginBodyMiddle {
+    width: 1px;
+    float: right;
+    margin-top: 60px;
+    margin-right:90px;
+    background-color: #e6e6e6;
+    background-image: -webkit-linear-gradient(
+            top,
+            #fff,
+            #e6e6e6 10%,
+            #e6e6e6 90%,
+            #fff 100%
+    );
+    height: 470px;
+}
+
+.loginBody .loginBodyRight {
+    padding-top: 80px;
+    width: 700px;
+    float: left;
+}
+
+.loginBody .loginBodyRight .loginBodyRightTitle {
+    margin-left: 200px;
+    margin-bottom: 5px;
+    font-size: 28px;
+    line-height: 20px;
+}
+
+.loginBody .loginBodyRight .loginBodyRightPic {
+    width: 397px;
+    height: 200px;
+
+    margin-top: 20px;
+    float: left;
+}
+.loginBody .loginBodyRight .loginBodyRightPic img{
+    width: 600px;
+    height: 350px;
+}
+
+.loginFooter {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+    background-color: #f7f8fa;
+    border-top: 1px solid #dedfe1;
+    color: #999;
+    font-size: 14px;
+    position:fixed
+}

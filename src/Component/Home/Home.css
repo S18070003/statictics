@@ -1,0 +1,28 @@
+.loginHeader {
+    height: 60px;
+    background-color: #d6e3e9;
+    padding: 0 40px;
+}
+.loginHeader img{
+    height: 40px;
+    margin-top: 10px;
+}
+
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.trigger:hover {
+    color: #1890ff;
+}
+
+.logo {
+    height: 32px;
+    background: rgba(255,255,255,.2);
+    margin: 16px;
+    image-src:"../../Statict/image/login/logo.png";
+}

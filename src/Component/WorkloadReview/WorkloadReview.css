@@ -1,0 +1,10 @@
+.td-hover{
+    max-width: 160px;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*.td-hover:hover{*/
+    /*white-space:normal;*/
+    /*overflow:hidden;*/
+/*}*/

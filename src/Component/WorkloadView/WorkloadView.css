@@ -1,0 +1,15 @@
+.workloadDetail{
+    position: fixed;
+    left: 15%;
+    top: 10%;
+    width: 70%;
+    border: 1px solid;
+    background-color: rgb(255, 233, 197);
+    display: none;
+}
+.workloadDetail .header{
+    height: 20px;
+}
+.headerRight{
+    float: right;
+}

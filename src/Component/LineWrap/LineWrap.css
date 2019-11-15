@@ -1,0 +1,11 @@
+
+.lineEllipsis{
+    display: -webkit-box;
+/*// -webkit-line-clamp: 2;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    max-width: 10px;
+    /* autoprefixer: on */
+}
